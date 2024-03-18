@@ -4,6 +4,8 @@ This is a mod that can be install to track NPC alert count.
 
 It is based on the Radar mod from https://github.com/saracoth/newdark-mods
 
+![Preview](https://github.com/WheretIB/t2mod_alert/assets/7524683/c3a957ac-4c68-464d-8d65-1b734fa36048)
+
 Similar to that mod, it adds a new Compass item into the inventory.
 
 That item displays the count of alerts events that were reported internally by the game:
