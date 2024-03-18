@@ -25,8 +25,8 @@ Item has two modes of operation:
   * This is often ok because you might hear a settling remark later
   * This might not be ok when NPC settles silently on the same 'Wait' point
   * Alerts during conversations are still counted
-* Some missions are unfortunately incompatible (don't know why)
-  * For example, 'Radar' mod doesn't work in 'Black Parade' and this mod doesn't work as well
+* The item might not appear in FMs that set 'apply_dbmods 0' in their fm.cfg. This line has to be removed. (example: Black Parade)
+* The item is only added at the start of the mission, so you can't load an old save and get it
 
 ### Installation
 
