@@ -1,0 +1,24 @@
+DML1
+
+// This allows us to use our .nut files.
+#script "squirrel"
+
+/*
+================================================================================
+== Attach Controller Script to Mission =========================================
+================================================================================
+*/
+
+// Using a script on a marker to attach and detach overlay handlers is the
+// recommended approach in the NewDark documentation. To do this, we need to
+// spawn a unique marker in each and every level, rather than, say, attach a
+// script to the player Avatar directly.
+
+Create "Marker" "WibAlertUiInterfacer"
+{
+	+ObjProp "Scripts"
+	{
+		"Script 0" "WibAlertUi"
+		"Don't Inherit" FALSE
+	}
+}
