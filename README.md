@@ -1,6 +1,6 @@
 ## Alert Tracker mod for Thief 1 and 2
 
-This is a mod that can be install to track NPC alert count.
+This is a mod that can be installed to track NPC alert count.
 
 It is based on the Radar mod from https://github.com/saracoth/newdark-mods
 
