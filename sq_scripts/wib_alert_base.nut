@@ -39,13 +39,6 @@ function PreFilterMessage(message)
 
 		wibAlarmMessages.append(copy)
 	}
-	
-	/*if (message.message != "Timer")
-	{
-		print(message.message);
-
-		//DarkUI.TextMessage(message.message, 0, 2000);
-	}*/
 
 	// return 'true' if message should be intercepted and not sent to the target script instance
 	return false;
@@ -211,13 +204,6 @@ class WibAlertToggler extends SqRootScript
 				str = format("%s\nHunt from %s", str, name);
 				thirdAlerts = thirdAlerts + 1;
 			}
-
-			/*if (Property.Possessed(msg.to, "AI_Alertness"))
-			{
-				local prop = Property.Get(msg.to, "AI_Alertness");
-
-				str = format("%s\nGot alertness %i", str, prop);
-			}*/
 		}
 
 		SetData("FirstAlerts", firstAlerts);
@@ -238,38 +224,6 @@ class WibAlertToggler extends SqRootScript
 
 class WibAlertPoiListener extends SqRootScript
 {
-	/*function OnAlertness()
-	{
-		DarkUI.TextMessage("OnAlertness", 0, 2000);
-	}
-	function OnActionProgress()
-	{
-		DarkUI.TextMessage("OnActionProgress", 0, 2000);
-	}
-	function OnGoalProgress()
-	{
-		DarkUI.TextMessage("OnGoalProgress", 0, 2000);
-	}
-	function OnModeChange()
-	{
-		DarkUI.TextMessage("OnModeChange", 0, 2000);
-	}
-	function OnGoalChange()
-	{
-		DarkUI.TextMessage("OnGoalChange", 0, 2000);
-	}
-	function OnPatrolPoint()
-	{
-		DarkUI.TextMessage(format("OnPatrolPoint %i %i", message().to, message().patrolObj), 0, 2000);
-	}
-	function OnAIModeChange()
-	{
-		DarkUI.TextMessage(format("OnAIModeChange %i %i %i", message().to, message().mode, message().previous_mode), 0, 2000);
-	}
-	function OnActionChange()
-	{
-		DarkUI.TextMessage(format("OnActionChange %i", message().to), 0, 2000);
-	}*/
 }
 
 // This script will be called on the player when the game starts, giving them a particular item.
